@@ -1,4 +1,4 @@
-# Modification on autoGPT for Chinese users for the issues that you can not connect to Google
+# Modification on autoGPT for Chinese users for the error Command="google" returns a WinError 10060
 基于autogpt非常小的修改，使得中国用户可以调用谷歌
 
 完成了所有步骤但还是报错`Command="google" returns a WinError 10060`？试试我这个
