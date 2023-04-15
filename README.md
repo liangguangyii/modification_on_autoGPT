@@ -1,5 +1,6 @@
-# Modification on autoGPT for Chinese users
+# Modification on autoGPT for Chinese users for the issues that you can not connect to Google
 基于autogpt非常小的修改，使得中国用户可以调用谷歌
+完成了所有步骤但还是报错`Command="google" returns a WinError 10060`？试试我这个
 
 主要的原因是原版的[autoGPT](https://github.com/Torantulino/Auto-GPT)中`google_official_search`使用了build建立链接，而这个函数没法走代理，我改成了reuqest。
 
